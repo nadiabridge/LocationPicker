@@ -1,9 +1,9 @@
+<!-- Location Picker with google maps made by Nádia Bridge Design -->
 
 <!-- you need one script for your API key, you can get it here: https://developers.google.com/maps/documentation/javascript/get-api-key -->
 <script type="text/javascript" src='http://maps.google.com/maps/api/YOUR_API_KEY_HERE=places'></script>
 <!-- another for the files of js -->
 <script src="<?php echo base_url('assets/themes/default/js/google_maps/locationpicker.jquery.min.js'); ?>"></script>
-
 
 <div class="row">
   <div class="col-sm-6">
@@ -12,7 +12,6 @@
     <div id="mapa_canvas" style="width: 550px; height: 400px;"></div>
   </div>
 </div>
-
 
 <script> 
 	$('#mapa_canvas').locationpicker({
@@ -30,5 +29,4 @@
 		},
 		enableAutocomplete: true,
 	});
-
 </script>
